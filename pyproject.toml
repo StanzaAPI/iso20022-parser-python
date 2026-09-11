@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stanzaapi-iso20022-parser"
+version = "1.0.0"
+description = "Official zero-dependency, high-speed Python client for ISO 20022 Financial Message Parser & Validator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = ["iso-20022","swift","pacs-008","camt-053","pain-001","sepa-xml","fednow","financial-messaging","banking"]
+authors = [
+  { name = "Stanza" },
+]
+
+[project.urls]
+Homepage = "https://stanzaapi.com/tools/iso20022-parser"
+Repository = "https://github.com/StanzaAPI/iso20022-parser-python"
